@@ -1,0 +1,97 @@
+.app {
+  text-align: center;
+  margin: 80px auto;
+  max-width: 360px;
+  background: white;
+  padding: 30px 15px;
+}
+.app-header {
+  border-bottom: 1px solid #eee;
+  margin-bottom: 24px;
+  padding: 0 24px 24px 0;
+  text-align: center;
+}
+.app-title {
+  color: #333;
+  text-align: left;
+  font-family: Lato,Helvetica,Arial,sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.form-group {
+  text-align: left;
+  margin-top: 6px;
+}
+
+.form-group label {
+  display: block;
+  font-family: Lato,Helvetica,Arial,sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.5;
+  text-transform: uppercase;
+  color: inherit;
+  cursor: pointer;
+  margin-bottom: 6px;
+}
+
+.form-group .text-input {
+  font-family: Lato,Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: none;
+  color: #333;
+  padding: 12px 0px 12px 12px;
+  width: calc(100% - 15px);
+}
+.text-validation-error {
+    align-content: center;
+    font-size: 14px;
+    background-color: #fc9688;
+    border-radius: 4px;
+    color: #fff;
+    margin-top: 12px;
+    padding: 15px;
+    text-shadow: none;
+}
+.text-input-error {
+  border-color: #fc9688 !important;
+}
+
+input[type="submit"] {
+    font-family: Lato,Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    background-color: #5196cb;
+    border: none;
+    border-radius: 50px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 700;
+    height: auto;
+    line-height: 1;
+    margin: 25px 0 0 0;
+    padding: 10.5px 24px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: inherit;
+    transition: all .1s ease;
+    white-space: nowrap;
+    width: 100%;
+}
+
+input[type="submit"]:hover {
+    background-color: #2a618c;
+    color: #fff;
+    outline: none;
+}
