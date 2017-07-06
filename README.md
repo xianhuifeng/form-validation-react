@@ -9,7 +9,7 @@ Form-Validation-React
 
 ## Table of Contents
 1. [Development](#development)
-2. [Installing Dependencies](#installing-dependencies)
+2. [Installing Dependencies and Start Locally](#installing-dependencies)
 3. [Changes will be implemented in future](#changes-will-be-implemented-in-future)
 4. [Author](#author)
 
@@ -18,7 +18,7 @@ Form-Validation-React
 - React
 - CSS3
 
-## Installing Dependencies
+## Installing Dependencies and Start Locally
 ```sh
 npm install
 npm start
