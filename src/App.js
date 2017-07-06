@@ -60,7 +60,7 @@ class App extends Component {
     }
     event.preventDefault();
   }
-  
+
   /**
    * run validation on field and update state.validationErrors
    * @param {String} field 
@@ -114,7 +114,7 @@ class App extends Component {
                       <label>{value.name}</label>
                       <div className="text-group">
                         <input className={this.isTextInputErrorOn(value.name)}  
-                               type="text" placeholder={value.placeholder} 
+                               type={value.type} placeholder={value.placeholder} 
                                value={this.state.payload[value.name] || ''}
                                onChange={this.handleChange(value.name)} />
                         { this.state.showErrors && this.state.validationErrors[value.name] ? 

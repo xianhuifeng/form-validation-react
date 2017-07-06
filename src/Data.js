@@ -1,18 +1,22 @@
 export const fields = [
   {
     name: "name",
-    placeholder: "First Last"
+    placeholder: "First Last",
+    type: "text"
   },
   {
     name: "email",
-    placeholder: "email@domain.com"
+    placeholder: "email@domain.com",
+    type: "text"
   },
   {
     name: "birthday",
-    placeholder: "DD/MM/YYYY"
+    placeholder: "DD/MM/YYYY",
+    type: "text"
   },
   {
     name: "password",
-    placeholder: null
+    placeholder: null,
+    type: "password"
   }
 ];
